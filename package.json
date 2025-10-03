@@ -1,0 +1,19 @@
+{
+  "name": "playwrightarinvoice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:headed": "playwright test --project=chromium --headed",
+    "install:browsers": "playwright install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.3.1"
+  }
+}
